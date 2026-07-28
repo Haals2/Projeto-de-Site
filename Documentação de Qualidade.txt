@@ -1,0 +1,319 @@
+{prompt
+meu site é como se fosse uma biblioteca digital, esta relacionado a uma rede de livros didaticos, educacionais, como: ensino fundamental, ensino medio, ensino superior, nesse site tambem teriamos artigos cientificos, estamos fazendo esse site sem fins lucrativos mas como foco nos alunos, vai ter forum de discussão pra debater dificuldades nas materias e etc, teremos uma ia pra resumir cada livro com os topicos interessante de cada pagina e vice versa, para q o site continue firme teremos ajuda de algumas faculdades, colocando anuncio delas poderiamos ganhar algumas taxas para passar ao autores dos livros, e dependendo do livro especifico poderiamos cobrar um valor..
+}
+
+
+
+# Documentação do Projeto – Biblioteca Digital Educacional
+
+## 1. Visão Geral
+
+A Biblioteca Digital Educacional é uma plataforma online voltada para democratizar o acesso ao conhecimento, oferecendo livros didáticos, materiais educacionais e conteúdos científicos para estudantes de diferentes níveis de ensino.
+
+O projeto possui caráter prioritariamente educacional e sem fins lucrativos, tendo como principal missão facilitar o aprendizado, incentivar a pesquisa e promover a colaboração entre estudantes, professores e instituições de ensino.
+
+Além de disponibilizar livros digitais, a plataforma contará com ferramentas inteligentes baseadas em Inteligência Artificial (IA), fóruns de discussão e recursos que auxiliam no processo de aprendizagem.
+
+---
+
+# 2. Objetivos
+
+## Objetivo Geral
+
+Construir uma plataforma educacional moderna que concentre livros, artigos científicos e ferramentas inteligentes para apoiar estudantes durante sua formação acadêmica.
+
+## Objetivos Específicos
+
+* Disponibilizar livros didáticos de diferentes áreas do conhecimento.
+* Incentivar o acesso gratuito ao conhecimento sempre que permitido.
+* Apoiar autores e editoras através de um modelo sustentável de remuneração.
+* Criar uma comunidade colaborativa entre estudantes.
+* Utilizar Inteligência Artificial para facilitar os estudos.
+* Aproximar universidades, faculdades e instituições de ensino da comunidade acadêmica.
+
+---
+
+# 3. Público-Alvo
+
+A plataforma será destinada principalmente para:
+
+* Estudantes do Ensino Fundamental.
+* Estudantes do Ensino Médio.
+* Universitários.
+* Professores.
+* Pesquisadores.
+* Instituições de ensino.
+* Autores de livros.
+* Editoras parceiras.
+
+---
+
+# 4. Conteúdo Disponível
+
+A plataforma oferecerá:
+
+* Livros didáticos.
+* Livros acadêmicos.
+* Livros técnicos.
+* Artigos científicos.
+* Materiais de apoio.
+* Apostilas.
+* Conteúdos produzidos por instituições parceiras.
+
+Os materiais serão organizados por:
+
+* Área do conhecimento.
+* Curso.
+* Disciplina.
+* Autor.
+* Editora.
+* Ano de publicação.
+* Palavras-chave.
+
+---
+
+# 5. Funcionalidades
+
+## Biblioteca Digital
+
+* Leitura online.
+* Download quando autorizado.
+* Favoritos.
+* Histórico de leitura.
+* Busca inteligente.
+* Filtros avançados.
+
+---
+
+## Sistema de Pesquisa
+
+O usuário poderá localizar conteúdos utilizando:
+
+* Nome do livro.
+* Autor.
+* Disciplina.
+* Curso.
+* Instituição.
+* Palavra-chave.
+* ISBN.
+* Categoria.
+
+---
+
+## Inteligência Artificial
+
+A plataforma contará com uma IA integrada responsável por auxiliar os estudos.
+
+Entre suas funções estarão:
+
+* Resumir capítulos completos.
+* Resumir páginas específicas.
+* Explicar conteúdos difíceis.
+* Responder dúvidas sobre o livro.
+* Gerar listas de tópicos importantes.
+* Criar perguntas para revisão.
+* Produzir flashcards.
+* Elaborar mapas mentais.
+* Gerar cronogramas de estudo personalizados.
+* Comparar assuntos entre diferentes livros.
+
+---
+
+## Fórum de Discussão
+
+Os usuários poderão:
+
+* Criar tópicos.
+* Fazer perguntas.
+* Responder dúvidas.
+* Compartilhar materiais.
+* Avaliar respostas.
+* Curtir comentários.
+* Denunciar conteúdos inadequados.
+
+Os fóruns serão organizados por disciplina e área de conhecimento.
+
+---
+
+## Perfil do Usuário
+
+Cada usuário possuirá:
+
+* Perfil pessoal.
+* Histórico de leitura.
+* Livros favoritos.
+* Participação em fóruns.
+* Estatísticas de estudo.
+* Medalhas e conquistas (gamificação).
+
+---
+
+# 6. Modelo de Negócio
+
+O projeto possui foco educacional e busca ser financeiramente sustentável.
+
+As principais fontes de receita poderão incluir:
+
+* Publicidade de universidades e faculdades parceiras.
+* Patrocínios institucionais.
+* Convênios educacionais.
+* Assinaturas opcionais com recursos premium.
+* Venda de livros licenciados.
+* Doações para manutenção da plataforma.
+
+Parte da receita poderá ser destinada aos autores e editoras parceiras, conforme acordos de licenciamento e distribuição.
+
+---
+
+# 7. Parcerias
+
+O projeto buscará estabelecer parcerias com:
+
+* Universidades.
+* Faculdades.
+* Editoras.
+* Instituições de pesquisa.
+* Bibliotecas.
+* Professores.
+* Autores independentes.
+
+As instituições parceiras poderão divulgar cursos, eventos e programas acadêmicos por meio da plataforma.
+
+---
+
+# 8. Direitos Autorais
+
+A plataforma respeitará integralmente a legislação de direitos autorais.
+
+Serão disponibilizados apenas conteúdos:
+
+* Em domínio público.
+* Com autorização dos autores.
+* Licenciados por editoras.
+* Disponibilizados por instituições parceiras.
+* Sob licenças abertas (como Creative Commons), quando aplicável.
+
+Os autores terão seus direitos preservados e poderão receber remuneração conforme contratos firmados.
+
+---
+
+# 9. Segurança
+
+A plataforma deverá garantir:
+
+* Autenticação segura.
+* Proteção de dados dos usuários.
+* Criptografia das informações.
+* Backup periódico.
+* Controle de permissões.
+* Registro de atividades (logs).
+* Conformidade com a Lei Geral de Proteção de Dados (LGPD).
+
+---
+
+# 10. Tecnologias
+
+Exemplo de arquitetura tecnológica:
+
+Frontend:
+
+* React
+* Next.js
+* Tailwind CSS
+
+Backend:
+
+* Node.js
+* NestJS
+
+Banco de Dados:
+
+* PostgreSQL
+* Redis
+
+Armazenamento:
+
+* Amazon S3 ou serviço equivalente
+
+Inteligência Artificial:
+
+* Modelos de linguagem (LLMs)
+* Busca semântica (RAG)
+* Banco de vetores para pesquisa contextual
+
+Infraestrutura:
+
+* Docker
+* Kubernetes (opcional)
+* CDN
+* Serviços em nuvem
+
+---
+
+# 11. Benefícios Esperados
+
+* Democratização do acesso ao conhecimento.
+* Redução das dificuldades de aprendizagem.
+* Apoio ao estudo individual.
+* Incentivo à pesquisa científica.
+* Fortalecimento da colaboração entre estudantes.
+* Maior integração entre instituições de ensino e comunidade acadêmica.
+* Valorização de autores e produção científica.
+
+---
+
+# 12. Visão de Futuro
+
+A Biblioteca Digital Educacional pretende tornar-se uma das principais plataformas de apoio ao ensino em língua portuguesa, reunindo livros, pesquisas, inteligência artificial e uma comunidade ativa de aprendizagem.
+
+O objetivo é criar um ecossistema educacional completo, no qual estudantes possam aprender, discutir, pesquisar e evoluir academicamente em um único ambiente, mantendo um modelo sustentável que beneficie usuários, instituições parceiras e autores.
+
+{prompt
+outra coisa pensamos em colocar um plano premium, pagando você ganha benefícios como videoaulas e professores disponíveis para ajudar o aluno dependendo do assunto sugerido, fora q os livros q são pagos estaria disponíveis
+}
+
+Plano Premium
+
+Embora a Biblioteca Digital Educacional tenha como missão democratizar o acesso ao conhecimento, será oferecido um plano Premium destinado aos usuários que desejarem recursos adicionais para potencializar seus estudos.
+
+A assinatura Premium contribuirá para a sustentabilidade da plataforma, permitindo investimentos contínuos em infraestrutura, desenvolvimento tecnológico, remuneração de autores, professores e ampliação do acervo.
+
+Benefícios do Plano Premium
+
+Os assinantes poderão ter acesso a:
+
+Biblioteca completa, incluindo livros licenciados e conteúdos exclusivos.
+Videoaulas organizadas por disciplina, curso e nível de ensino.
+Acompanhamento com professores e tutores parceiros para esclarecimento de dúvidas.
+Sessões de perguntas e respostas em horários programados.
+Inteligência Artificial com recursos avançados, incluindo explicações detalhadas, resolução passo a passo de exercícios e planos de estudo personalizados.
+Resumos aprofundados de livros e artigos científicos.
+Flashcards, mapas mentais e simulados gerados por IA.
+Recomendações de estudo baseadas no desempenho do aluno.
+Download de materiais autorizados para leitura offline.
+Participação em grupos de estudo exclusivos.
+Acesso antecipado a novos recursos da plataforma.
+Modelo de Assinatura
+
+A plataforma poderá disponibilizar diferentes modalidades de assinatura, como:
+
+Plano Mensal.
+Plano Semestral.
+Plano Anual.
+Plano Estudantil, mediante comprovação de vínculo com instituição de ensino.
+Destinação dos Recursos
+
+Os valores arrecadados por meio das assinaturas serão destinados à manutenção e ao crescimento da plataforma, incluindo:
+
+Pagamento de licenças de livros e conteúdos.
+Remuneração de autores e editoras parceiras.
+Contratação de professores e tutores.
+Desenvolvimento de novas funcionalidades.
+Custos de servidores, armazenamento e segurança.
+Investimentos em Inteligência Artificial e inovação.
+Expansão do acervo digital e estabelecimento de novas parcerias.
+Compromisso Social
+
+Mesmo com a existência do plano Premium, a plataforma manterá seu compromisso de oferecer uma ampla quantidade de conteúdos gratuitos, garantindo que estudantes de diferentes condições financeiras continuem tendo acesso ao conhecimento.
+
+O plano Premium será uma forma de ampliar a experiência de aprendizagem, oferecendo serviços especializados sem comprometer a missão principal do projeto.

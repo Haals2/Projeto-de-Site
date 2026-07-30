@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resumos Disponíveis - Bahioteca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app-container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Resumos Disponíveis</h2>
+      </div>
+
+      <div class="summary-list">
+        <!-- Item 1 (Active) -->
+        <div class="summary-card active">
+          <img src="https://m.media-amazon.com/images/I/81I5J1aKkKL._AC_UF1000,1000_QL80_.jpg" alt="Capa Jurassic Park" class="book-cover">
+          <div class="summary-info">
+            <h3>Jurassic Park</h3>
+            <p>Em "Jurassic Park", escrito por Michael Crichton, o bilionário John Hammond...</p>
+            <span class="year">2018</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content / Chat Interface -->
+    <main class="chat-area">
+      <!-- Decorative background blur element -->
+      <div class="bg-blur-circle"></div>
+
+      <div class="chat-messages" id="chatMessages">
+      </div>
+
+      <!-- Chat Input Area -->
+      <div class="chat-input-container">
+        <form id="chatForm" class="chat-form">
+          <input 
+            type="text" 
+            id="userInput" 
+            placeholder="Pergunte por aqui..." 
+            autocomplete="off" 
+          />
+          <button type="submit" class="btn-send" aria-label="Enviar">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,557 @@
+/* ==========================
+RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* ==========================
+HEADER
+========================== */
+
+header{
+
+    height:75px;
+
+    background:#fff;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 60px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+}
+
+.logo h2{
+
+    color:#2196f3;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:#555;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#2196f3;
+
+}
+
+header button{
+
+    background:#2196f3;
+
+    color:#fff;
+
+    border:none;
+
+    padding:10px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+/* ==========================
+BANNER
+========================== */
+
+.banner{
+
+    width:1200px;
+
+    max-width:95%;
+
+    margin:40px auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.banner-img{
+
+    width:110px;
+
+    height:110px;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    background:#ffd54f;
+
+}
+
+.banner-img img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.banner-info span{
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+.banner-info h1{
+
+    margin:8px 0;
+
+    font-size:34px;
+
+}
+
+.banner-info p{
+
+    color:#2196f3;
+
+}
+
+/* ==========================
+PESQUISA
+========================== */
+
+.pesquisa{
+
+    width:1200px;
+
+    max-width:95%;
+
+    margin:auto;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:18px 25px;
+
+    border-radius:50px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+}
+
+.pesquisa i{
+
+    color:#666;
+
+    margin-right:15px;
+
+}
+
+.pesquisa input{
+
+    width:100%;
+
+    border:none;
+
+    outline:none;
+
+    font-size:16px;
+
+}
+
+/* ==========================
+FILTROS
+========================== */
+
+.ensinos,
+.materias{
+
+    width:1200px;
+
+    max-width:95%;
+
+    margin:35px auto;
+
+    display:flex;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+}
+
+.ensinos button,
+.materias button{
+
+    border:none;
+
+    padding:11px 22px;
+
+    border-radius:30px;
+
+    background:white;
+
+    cursor:pointer;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.ensinos button:hover,
+.materias button:hover{
+
+    background:#2196f3;
+
+    color:white;
+
+}
+
+.ativo,
+.ativoMateria{
+
+    background:#2196f3 !important;
+
+    color:white;
+
+}
+
+/* ==========================
+CATÁLOGO
+========================== */
+
+#catalogo{
+
+    width:1200px;
+
+    max-width:95%;
+
+    margin:40px auto;
+
+}
+
+.categoria{
+
+    margin-bottom:60px;
+
+}
+
+.categoria-topo{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.categoria-topo h2{
+
+    font-size:24px;
+
+}
+
+.categoria-topo a{
+
+    text-decoration:none;
+
+    color:#2196f3;
+
+}
+
+.carrossel{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.seta{
+
+    width:45px;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#2196f3;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+}
+
+.lista{
+
+    display:flex;
+
+    gap:20px;
+
+    overflow-x:auto;
+
+    scroll-behavior:smooth;
+
+    flex:1;
+
+    padding-bottom:10px;
+
+}
+
+.lista::-webkit-scrollbar{
+
+    height:8px;
+
+}
+
+.lista::-webkit-scrollbar-thumb{
+
+    background:#ccc;
+
+    border-radius:10px;
+
+}
+
+/* ==========================
+CARD
+========================== */
+
+.card{
+
+    min-width:170px;
+
+    flex-shrink:0;
+
+    background:white;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+}
+
+.info{
+
+    padding:12px;
+
+}
+
+.info h3{
+
+    font-size:15px;
+
+    margin-bottom:5px;
+
+}
+
+.info p{
+
+    color:#777;
+
+    font-size:13px;
+
+}
+
+/* ==========================
+MODAL
+========================== */
+
+.modal{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.6);
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.modal-box{
+
+    width:420px;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    position:relative;
+
+    text-align:center;
+
+}
+
+.modal-box img{
+
+    width:220px;
+
+    border-radius:10px;
+
+    margin-bottom:20px;
+
+}
+
+#fechar{
+
+    position:absolute;
+
+    right:20px;
+
+    top:15px;
+
+    cursor:pointer;
+
+    font-size:28px;
+
+}
+
+#ler{
+
+    margin-top:20px;
+
+    background:#2196f3;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 30px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+/* ==========================
+RESPONSIVO
+========================== */
+
+@media(max-width:768px){
+
+header{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:20px;
+
+}
+
+nav{
+
+    margin:15px 0;
+
+}
+
+.banner{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.banner-info h1{
+
+    font-size:26px;
+
+}
+
+.card{
+
+    min-width:140px;
+
+}
+
+.card img{
+
+    height:190px;
+
+}
+
+}

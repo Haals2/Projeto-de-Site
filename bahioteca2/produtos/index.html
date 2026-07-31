@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduBooks</title>
+
+    <link rel="stylesheet" href="/produtos/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h2>Bahioteca</h2>
+    </div>
+
+    <button>Entrar</button>
+</header>
+
+
+<section class="banner"></section>
+
+
+<section class="pesquisa">
+    <i class="fa-solid fa-magnifying-glass"></i>
+
+    <input 
+        type="text"
+        id="pesquisa"
+        placeholder="Pesquisar livro..."
+    >
+</section>
+
+
+<section class="ensinos">
+    <button class="ativo" data-ensino="todos">
+        Todos
+    </button>
+
+    <button data-ensino="fundamental">
+        Fundamental
+    </button>
+
+    <button data-ensino="medio">
+        Médio
+    </button>
+
+    <button data-ensino="superior">
+        Superior
+    </button>
+
+    <button data-ensino="artigos">
+        Artigos
+    </button>
+</section>
+
+
+<section class="materias">
+
+    <button class="ativoMateria" data-materia="todos">
+        Todos
+    </button>
+
+    <button data-materia="portugues">
+        Português
+    </button>
+
+    <button data-materia="matematica">
+        Matemática
+    </button>
+
+    <button data-materia="historia">
+        História
+    </button>
+
+    <button data-materia="geografia">
+        Geografia
+    </button>
+
+    <button data-materia="fisica">
+        Física
+    </button>
+
+    <button data-materia="quimica">
+        Química
+    </button>
+
+    <button data-materia="biologia">
+        Biologia
+    </button>
+
+    <button data-materia="algoritmos">
+        Algoritmos
+    </button>
+
+</section>
+
+
+<main id="catalogo"></main>
+
+
+<div id="modal" class="modal">
+
+    <div class="modal-box">
+
+        <span id="fechar">×</span>
+
+        <div class="modal-dados">
+            <div class="modal-esquerdo">
+                <div class="modal-foto">
+                    <img id="modalImg" src="" alt="Capa do livro">
+                </div>
+                <div class="modal-dados-produto">
+                    <h2 id="modalTitulo"></h2>
+                    <p id="modalCategoria"></p>
+                    <button id="ler">Ler Livro</button>
+                </div>
+            </div>
+            <div class="modal-direito">
+                <h1>aaaaaaaa</h1>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="leitorPDF" class="leitor-pdf">
+
+    <div class="topo-leitor">
+
+        <h2 id="tituloLeitura">
+            Lendo livro
+        </h2>
+
+        <button id="fecharLeitor">
+            Voltar
+        </button>
+
+    </div>
+
+    <iframe
+        id="pdfViewer"
+        src=""
+        title="Leitor de PDF">
+    </iframe>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

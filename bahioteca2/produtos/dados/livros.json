@@ -1,0 +1,78 @@
+[
+    {
+        "id":1,
+        "titulo":"Matemática Básica",
+        "autor":"Autor Exemplo",
+        "descricao":"Livro introdutório de matemática para estudantes.",
+        "categoria":"Matemática",
+        "materia":"matematica",
+        "ensino":"fundamental",
+        "capa":"/produtos/dados/livros/capas/Matematica.webp",
+        "pdf":"/produtos/dados/livros/PNLD27_APIS_MAIS_COL1_MATEMATICA_1ANO_MP_lin.pdf"
+    },
+
+
+    {
+        "id":2,
+        "titulo":"História do Brasil",
+        "autor":"Autor Exemplo",
+        "descricao":"Conteúdo sobre os principais acontecimentos da história brasileira.",
+        "categoria":"História",
+        "materia":"historia",
+        "ensino":"medio",
+        "capa":"/produtos/dados/livros/capas/Historia.webp",
+        "pdf":"pdf/historia.pdf"
+    },
+
+
+    {
+        "id":3,
+        "titulo":"Introdução à Programação",
+        "autor":"Autor Exemplo",
+        "descricao":"Fundamentos de lógica e algoritmos.",
+        "categoria":"Tecnologia",
+        "materia":"algoritmos",
+        "ensino":"superior",
+        "capa":"capas/programacao.jpg",
+        "pdf":"pdf/programacao.pdf"
+    },
+
+
+    {
+        "id":4,
+        "titulo":"Biologia Geral",
+        "autor":"Autor Exemplo",
+        "descricao":"Estudo dos seres vivos e processos biológicos.",
+        "categoria":"Biologia",
+        "materia":"biologia",
+        "ensino":"medio",
+        "capa":"capas/biologia.jpg",
+        "pdf":"pdf/biologia.pdf"
+    },
+
+
+    {
+        "id":5,
+        "titulo":"Física Mecânica",
+        "autor":"Autor Exemplo",
+        "descricao":"Conceitos de movimento, força e energia.",
+        "categoria":"Física",
+        "materia":"fisica",
+        "ensino":"medio",
+        "capa":"capas/fisica.jpg",
+        "pdf":"pdf/fisica.pdf"
+    },
+
+
+    {
+        "id":6,
+        "titulo":"Química Geral",
+        "autor":"Autor Exemplo",
+        "descricao":"Introdução aos conceitos fundamentais da química.",
+        "categoria":"Química",
+        "materia":"quimica",
+        "ensino":"medio",
+        "capa":"capas/quimica.jpg",
+        "pdf":"pdf/quimica.pdf"
+    }
+]

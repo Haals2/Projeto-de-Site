@@ -1,0 +1,884 @@
+/* ==========================
+RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+body{
+
+    background:#f4f6f9;
+
+    color:#333;
+
+}
+
+
+
+/* ==========================
+HEADER
+========================== */
+
+
+header{
+
+    height:75px;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 60px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+}
+
+
+
+.logo h2{
+
+    color:#2196f3;
+
+    font-size:28px;
+
+}
+
+
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+
+
+nav a{
+
+    text-decoration:none;
+
+    color:#555;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+
+
+nav a:hover{
+
+    color:#2196f3;
+
+}
+
+
+
+header button{
+
+    border:none;
+
+    background:#2196f3;
+
+    color:white;
+
+    padding:10px 25px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:500;
+
+}
+
+
+
+
+
+/* ==========================
+BANNER
+========================== */
+
+
+.banner{
+
+    width:1200px;
+
+    max-width:95%;
+
+    height:180px;
+
+    margin:40px auto;
+
+    background:
+
+    linear-gradient(
+    135deg,
+    #2196f3,
+    #64b5f6
+    );
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:40px;
+
+    color:white;
+
+}
+
+
+
+
+.banner h1{
+
+    font-size:36px;
+
+}
+
+
+
+.banner p{
+
+    margin-top:10px;
+
+    opacity:.9;
+
+}
+
+
+
+
+
+/* ==========================
+PESQUISA
+========================== */
+
+
+.pesquisa{
+
+    width:1200px;
+
+    max-width:95%;
+
+    margin:auto;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:18px 25px;
+
+    border-radius:50px;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.08);
+
+}
+
+
+
+.pesquisa i{
+
+    color:#777;
+
+    margin-right:15px;
+
+}
+
+
+
+.pesquisa input{
+
+    width:100%;
+
+    border:none;
+
+    outline:none;
+
+    font-size:16px;
+
+}
+
+
+
+
+
+
+/* ==========================
+FILTROS
+========================== */
+
+
+.ensinos,
+.materias{
+
+    width:1200px;
+
+    max-width:95%;
+
+    margin:35px auto;
+
+    display:flex;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.ensinos button,
+.materias button{
+
+    border:none;
+
+    background:white;
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 3px 10px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+
+
+.ensinos button:hover,
+.materias button:hover{
+
+    background:#2196f3;
+
+    color:white;
+
+}
+
+
+
+.ativo,
+.ativoMateria{
+
+    background:#2196f3 !important;
+
+    color:white;
+
+}
+
+
+
+
+
+
+/* ==========================
+CATÁLOGO
+========================== */
+
+
+#catalogo{
+
+    width:1200px;
+
+    max-width:95%;
+
+    margin:40px auto;
+
+}
+
+
+
+.categoria{
+
+    margin-bottom:60px;
+
+}
+
+
+
+.categoria-topo{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.categoria-topo h2{
+
+    font-size:25px;
+
+}
+
+
+
+.carrossel{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+
+
+.seta{
+
+    width:45px;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#2196f3;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+}
+
+
+
+.lista{
+
+    display:flex;
+
+    gap:20px;
+
+    overflow-x:auto;
+
+    scroll-behavior:smooth;
+
+    flex:1;
+
+}
+
+
+
+.lista::-webkit-scrollbar{
+
+    height:8px;
+
+}
+
+
+.lista::-webkit-scrollbar-thumb{
+
+    background:#bbb;
+
+    border-radius:20px;
+
+}
+
+
+
+
+
+/* ==========================
+CARD LIVRO
+========================== */
+
+
+.card{
+    min-width:170px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    cursor:pointer;
+    transition:.3s;
+}
+
+
+
+.card:hover{
+    opacity:.8;
+}
+
+
+
+.card img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+}
+
+
+
+.info{
+
+    padding:15px;
+
+}
+
+
+
+.info h3{
+
+    font-size:15px;
+
+}
+
+
+
+.info p{
+
+    color:#777;
+
+    font-size:13px;
+
+    margin-top:5px;
+
+}
+
+
+
+
+
+/* ==========================
+MODAL
+========================== */
+
+
+.modal{
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+    rgba(0,0,0,.6);
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:3000;
+
+}
+
+
+
+.modal-box{
+
+    background:white;
+
+    width:100%;
+    height:100%;
+
+    max-width:100%;
+
+    padding:30px;
+
+    text-align:center;
+
+    position:relative;
+
+}
+
+.modal-dados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-esquerdo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.modal-foto {
+    background-color: #00000017;
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.modal-dados-produto {
+    width: 60%;
+    max-height: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#modalCategoria {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.info-descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #00000017;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.info-descricao span {
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+
+.info-autor {
+    margin-top: 10px;
+    background-color: #00000017;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#modalCategoria strong {
+    margin-bottom: 10px;
+}
+
+#ler {
+    width: 100%;
+    font-weight: bold;
+}
+
+.modal-direito {
+    background-color: #98b00f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.modal-box img{
+
+    width:220px;
+
+    border-radius:10px;
+
+}
+
+
+
+#fechar{
+
+    position:absolute;
+
+    right:20px;
+
+    top:15px;
+
+    font-size:30px;
+
+    cursor:pointer;
+
+}
+
+
+
+#ler{
+
+    margin-top:20px;
+
+    border:none;
+
+    background:#2196f3;
+
+    color:white;
+
+    padding:12px 35px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+
+
+/* ==========================
+LEITOR PDF
+========================== */
+
+
+.leitor-pdf{
+
+    position:fixed;
+
+    inset:0;
+
+    background:white;
+
+    display:none;
+
+    flex-direction:column;
+
+    z-index:5000;
+
+}
+
+
+
+.topo-leitor{
+
+    height:70px;
+
+    background:#2196f3;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 30px;
+
+}
+
+
+
+#fecharLeitor{
+
+    border:none;
+
+    background:white;
+
+    color:#2196f3;
+
+    padding:10px 25px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+}
+
+
+
+#pdfViewer{
+
+    width:100%;
+
+    height:calc(100vh - 70px);
+
+    border:none;
+
+}
+
+
+
+
+
+
+
+/* ==========================
+SEM LIVROS
+========================== */
+
+
+.sem-livros{
+
+    background:white;
+
+    padding:50px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+}
+
+
+
+.sem-livros h2{
+
+    color:#2196f3;
+
+}
+
+
+
+
+
+
+
+
+/* ==========================
+RESPONSIVO
+========================== */
+
+
+@media(max-width:768px){
+
+
+
+header{
+
+    height:auto;
+
+    padding:20px;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+
+nav{
+
+    gap:20px;
+
+}
+
+
+
+.banner{
+
+    height:150px;
+
+    padding:25px;
+
+}
+
+
+
+.banner h1{
+
+    font-size:25px;
+
+}
+
+
+
+.ensinos,
+.materias{
+
+    justify-content:center;
+
+}
+
+
+
+.card{
+
+    min-width:140px;
+
+}
+
+
+
+.card img{
+
+    height:190px;
+
+}
+
+
+
+.seta{
+
+    width:35px;
+
+    height:35px;
+
+}
+
+
+
+.modal-box{
+
+    width:90%;
+
+}
+
+
+
+.topo-leitor h2{
+
+    font-size:15px;
+
+}
+
+
+
+#fecharLeitor{
+
+    padding:8px 15px;
+
+}
+
+
+
+}
